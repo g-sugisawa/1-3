@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>課題①-3
+  </title>
+</head>
+<body>
+<script>
+  console.log("==========================");
+  console.log("現在持っているタスクの一覧");
+  console.log("==========================");
+    let array = ["清掃", "買い物", "散歩"];
+    array.forEach(element => console.log(element));
+  let todo =  prompt("タスクを入力してください");
+    if(todo){
+      alert("新しいタスクを追加しました。")
+    } else {
+    }
+  console.log("==========================");
+  console.log("現在持っているタスクの一覧");
+  console.log("==========================");
+    array.push(todo);
+  array.forEach(element => console.log(element));
+ 
+  //console.log( array[0] ); 
+  //console.log( array[1] ); 
+  //console.log( array[2] );
+  //console.log( array[3]);
+</script>
+</body>
+</html>
